@@ -111,12 +111,23 @@ public class Modelo {
 
 	}
 
+	/**
+	 * Devuelve un String con las canciones con el formato con el que aparece al
+	 * 	darle al check "Listar canciones" -> boton "Listar"
+	 * @return
+	 */
 	// a) Devuelve un String con las canciones con el formato con el que aparece al
 	// darle al check "Listar canciones" -> bot�n "Listar"
 	public String getCanciones() {
-		return ;
+		return null;
 	}
 
+	/**
+	 * 	Devuelve un String con todos los artistas y su n�mero de canciones con el
+	 * 	formato con el que aparece al darle al check
+	 * 	Artistas y su n�mero de canciones" -> boton "Listar"
+	 * @return
+	 */
 	// b) Devuelve un String con todos los artistas y su n�mero de canciones con el
 	// formato con el que aparece al darle al check
 	// "Artistas y su n�mero de canciones" -> bot�n "Listar"
@@ -124,6 +135,13 @@ public class Modelo {
 		return "";
 	}
 
+	/**
+	 * 	Devuelve una cadena con las tres discogr�ficas con mayor n�mero de
+	 * 	reproducciones entre todas sus canciones con
+	 * 	el formato con el que aparece al darle al check "Productoras con m�s
+	 * 	reproducciones" -> boton "Listar"
+	 * @return
+	 */
 	// c) Devuelve una cadena con las tres discogr�ficas con mayor n�mero de
 	// reproducciones entre todas sus canciones con
 	// el formato con el que aparece al darle al check "Productoras con m�s
@@ -132,12 +150,22 @@ public class Modelo {
 		return "";
 	}
 
+	/**
+	 * 	Devuelve todas las canciones ordenadas por el orden natural de las
+	 * 	canciones, que es alfabeticamente por su nombre.
+	 * @return
+	 */
 	// d) Devuelve todas las canciones ordenadas por el orden natural de las
 	// canciones, que es alfab�ticamente por su nombre.
 	public Set<Cancion> getCancionesOrdenadas() {
 		return null;
 	}
 
+	/**
+	 * 	Añade el productor, sus canciones, y los artistas de las canciones al
+	 * 	modelo.
+	 * @param produccionesNuevas
+	 */
 	// e) A�ade el productor, sus canciones, y los artistas de las canciones al
 	// modelo.
 	public void addProduccionesYArtistas(HashMap<Productor, HashSet<Cancion>> produccionesNuevas) {
